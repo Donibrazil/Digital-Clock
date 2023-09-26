@@ -1,9 +1,19 @@
 body {
     background-color: #58b1e7;
 }
+#main {
+  color: black;
+  border: 5px solid black;
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 100px;
+  padding: 100px;
+
+}
 #clock {
     color: #fff;
-    font-size: 195px;
+    font-size: 45px;
     background-color: #000;
     padding: 0.5em 0em;
     width: 80%;
@@ -12,17 +22,21 @@ body {
     text-align: center;
 }
 #banner {
+    display: flex;
     color: #fefefe;
-    font-size: 50px;
+    font-size: 28px;
     text-align: center;
     background-color: #eb6c52;
     padding: 0.5em 0em;
     width: 80%;
     margin: 10% auto 0%;
     font-family: Helvetica, sans-serif;
-    text-align: left;
     text-transform: uppercase;
     }
     span {
-        margin-left: 175px;
-    }
+      text-align: center;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: auto;
+      margin-right: auto;
+  }
